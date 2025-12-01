@@ -1,11 +1,8 @@
 function openTG() {
   const invite = "_PzFoPA1DmM1NjIy";
-  const tgUrl = `tg://join/?invite=${invite}`;
   const httpUrl = `https://t.me/+${invite}`;
-
   const ua = navigator.userAgent.toLowerCase();
   const isTikTokBrowser = /ttwebview|aweme|musical_ly/i.test(ua);
-
   if (isTikTokBrowser) {
     const message = document.createElement('div');
     message.className = 'tiktok-overlay';
@@ -23,12 +20,7 @@ function openTG() {
     document.body.appendChild(message);
     return;
   }
-
-  window.location.href = tgUrl;
-
-  setTimeout(() => {
-    window.location.href = httpUrl;
-  }, 1500);
+  window.location.href = httpUrl;
 }
 
 function copyLink() {
