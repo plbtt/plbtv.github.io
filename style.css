@@ -170,6 +170,15 @@ h1 {
     width: 100%;
     max-width: 250px;
 }
+.tiktok-dots {
+    width: 22px !important;
+    height: 22px !important;
+    fill: none !important;
+    animation: none !important;
+}
+.tiktok-dots circle {
+    fill: #fff !important;
+}
 .tiktok-overlay button:hover {
     background: #5a6ffc;
 }
@@ -239,3 +248,4 @@ h1 {
     }
 
 }
+
