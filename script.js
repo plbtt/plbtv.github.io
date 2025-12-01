@@ -12,7 +12,7 @@ function openTG() {
                     <ol style="text-align: left; padding-left: 18px; margin: 10px 0;">
                         <li>
                             Нажмите 
-                            <svg width="22" height="22" viewBox="0 0 24 24" 
+                            <svg class="tiktok-dots" width="22" height="22" viewBox="0 0 24 24"> 
                                  style="vertical-align: middle; margin-left: 4px;">
                                 <circle cx="4" cy="12" r="3.4" style="fill:white !important;"></circle>
                                 <circle cx="12" cy="12" r="3.4" style="fill:white !important;"></circle>
@@ -40,3 +40,4 @@ function copyLink() {
     .then(() => { alert('Ссылка скопирована! Вставьте в браузер и откройте.'); })
     .catch(() => { alert('Не удалось скопировать ссылку. Попробуйте вручную.'); });
 }
+
