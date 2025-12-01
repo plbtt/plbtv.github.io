@@ -1,6 +1,6 @@
 function openTG() {
   const invite = "_PzFoPA1DmM1NjIy";
-  const httpUrl = `https://t.me/+${invite}`;
+  const httpUrl = "https://plbtt.github.io/tg";
   const ua = navigator.userAgent.toLowerCase();
   const isTikTokBrowser = /ttwebview|aweme|musical_ly/i.test(ua);
   if (isTikTokBrowser) {
@@ -30,3 +30,4 @@ function copyLink() {
     alert('Ссылка скопирована! Вставьте в браузер и откройте.');
   });
 }
+
